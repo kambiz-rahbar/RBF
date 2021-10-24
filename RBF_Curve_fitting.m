@@ -17,7 +17,7 @@ figure(1);
 subplot(2,2,1);
 plot(X,T,'+');
 title('Training Vectors');
-xlabel('Input Vector P');
+xlabel('Input Vector X');
 ylabel('Target Vector T');
 
 % We would like to find a function which fits the 21 data points. One way
@@ -31,7 +31,7 @@ a = radbas(x);
 subplot(2,2,2);
 plot(x,a)
 title('Radial Basis Transfer Function');
-xlabel('Input p');
+xlabel('Input x');
 ylabel('Output a');
 
 % The weights and biases of each neuron in the hidden layer define the
